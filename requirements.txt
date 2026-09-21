@@ -1,0 +1,34 @@
+# ============================================================
+# Explainable Human Capital Intelligence Framework
+# AI Employee Attrition Detector — dependencies
+#
+# Install:
+#     pip install -r requirements.txt
+#
+# Python 3.10+ recommended (tested on Google Colab / Python 3.11)
+# ============================================================
+
+# --- Core data handling ---
+pandas>=2.0
+numpy>=1.26
+
+# --- Machine learning (10-model experiment + calibration) ---
+scikit-learn>=1.3
+xgboost>=2.0
+lightgbm>=4.0
+
+# --- Explainability (SHAP waterfall) ---
+shap>=0.44
+
+# --- Visualization (EDA + SHAP plots) ---
+matplotlib>=3.7
+seaborn>=0.12
+
+# --- Interactive dashboard (Gradio UI) ---
+gradio>=4.0
+
+# --- LLM narrative generation (BYOK — use your own API key) ---
+# Groq (Llama-3.3-70B) — https://console.groq.com/keys
+groq>=0.9
+# Google Gemini (secondary experiment) — https://aistudio.google.com/apikey
+google-generativeai>=0.5
