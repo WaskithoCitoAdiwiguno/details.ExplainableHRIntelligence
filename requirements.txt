@@ -27,7 +27,7 @@ seaborn>=0.12
 # --- Interactive dashboard (Gradio UI) ---
 gradio>=4.0
 
-# --- LLM narrative generation (BYOK — use your own API key) ---
+# --- LLM narrative generation (BYOK: use your own API key) ---
 # Groq (Llama-3.3-70B) — https://console.groq.com/keys
 groq>=0.9
 # Google Gemini (secondary experiment) — https://aistudio.google.com/apikey

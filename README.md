@@ -15,7 +15,7 @@ Sistem prediksi risiko resign karyawan yang dapat dijelaskan (explainable):
 
 ## Publikasi
 
-Framework ini dikembangkan sebagai Tugas Akhir (D-IV Teknik Informatika, ULBI, 2026) dan ditulis sebagai jurnal *"An Explainable Human Capital Intelligence Framework: Integrating SHAP and Large Language Models for Predictive and Prescriptive Employee Attrition Analytics"* (Waskitho Cito Adiwiguno, Roni Andarsyah, Mohamad Nurkamal Fauzan) — diajukan ke **JANAPATI** (Jurnal Ilmu Komputer dan Informatika, Universitas Pendidikan Ganesha).
+Framework ini dikembangkan sebagai Tugas Akhir (D-IV Teknik Informatika, ULBI, 2026) dan ditulis sebagai jurnal *"An Explainable Human Capital Intelligence Framework: Integrating SHAP and Large Language Models for Predictive and Prescriptive Employee Attrition Analytics"* (Waskitho Cito Adiwiguno, Roni Andarsyah, Mohamad Nurkamal Fauzan), diajukan ke **JANAPATI** (Jurnal Ilmu Komputer dan Informatika, Universitas Pendidikan Ganesha).
 
 ## Isi
 
@@ -30,7 +30,7 @@ Framework ini dikembangkan sebagai Tugas Akhir (D-IV Teknik Informatika, ULBI, 2
 
 ## Menjalankan Notebook
 
-Notebook memuat seluruh eksperimen framework — dari CSV mentah hingga dashboard Gradio.
+Notebook memuat seluruh eksperimen framework, dari CSV mentah hingga dashboard Gradio.
 
 ```bash
 # 1. (Opsional tapi disarankan) buat virtual environment
@@ -46,13 +46,13 @@ pip install notebook
 jupyter notebook "Employee_Attriction_AI_(1_0).ipynb"
 ```
 
-Alternatif tanpa instalasi apa pun: upload notebook ke [Google Colab](https://colab.research.google.com/) — semua dependensi bisa di-install dari sel `!pip install` yang sudah tersedia di dalamnya.
+Alternatif tanpa instalasi apa pun: upload notebook ke [Google Colab](https://colab.research.google.com/), semua dependensi bisa di-install dari sel `!pip install` yang sudah tersedia di dalamnya.
 
-**API key (BYOK):** di sel LLM, ganti placeholder `GROQ_API_KEY_ANDA` dengan key Groq milikmu sendiri — buat gratis di [console.groq.com/keys](https://console.groq.com/keys). Key hanya hidup di sesi runtime-mu, tidak pernah tersimpan di repo.
+**API key (BYOK):** di sel LLM, ganti placeholder `GROQ_API_KEY_ANDA` dengan key Groq milikmu sendiri (buat gratis di [console.groq.com/keys](https://console.groq.com/keys)). Key hanya hidup di sesi runtime-mu, tidak pernah tersimpan di repo.
 
 ## Catatan
 
-- `index.html` memuat asset dari `src/` — pastikan folder `src/` ikut ter-push.
-- Notebook tidak menyimpan API key apa pun (BYOK — masukkan kunci Groq sendiri saat menjalankan, lihat bagian **Menjalankan Notebook**).
-- Dataset `employee_attrition_clean.csv` adalah dataset publik IBM HR Attrition yang telah dibersihkan — bukan data karyawan asli.
+- `index.html` memuat asset dari `src/`; pastikan folder `src/` ikut ter-push.
+- Notebook tidak menyimpan API key apa pun (BYOK: masukkan kunci Groq sendiri saat menjalankan, lihat bagian **Menjalankan Notebook**).
+- Dataset `employee_attrition_clean.csv` adalah dataset publik IBM HR Attrition yang telah dibersihkan, bukan data karyawan asli.
 - Halaman responsif: tata letak menyesuaikan ponsel (grid 1 kolom, tombol full-width, slider dengan panah kecil).
