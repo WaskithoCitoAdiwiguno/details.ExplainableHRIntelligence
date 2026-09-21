@@ -50,16 +50,6 @@ Alternatif tanpa instalasi apa pun: upload notebook ke [Google Colab](https://co
 
 **API key (BYOK):** di sel LLM, ganti placeholder `GROQ_API_KEY_ANDA` dengan key Groq milikmu sendiri — buat gratis di [console.groq.com/keys](https://console.groq.com/keys). Key hanya hidup di sesi runtime-mu, tidak pernah tersimpan di repo.
 
-## Cara Deploy ke GitHub Pages
-
-1. Push seluruh isi folder ini ke root branch `main` repositori `details.ExplainableHRIntelligence`.
-2. Buka **Settings → Pages** di repositori tersebut.
-3. Pada **Build and deployment → Source**, pilih **Deploy from a branch**.
-4. Pilih branch `main` dan folder `/ (root)`, lalu klik **Save**.
-5. Tunggu 1–2 menit, halaman akan tersedia di:
-
-   **https://waskithocitoadiwiguno.github.io/details.ExplainableHRIntelligence/**
-
 ## Catatan
 
 - `index.html` memuat asset dari `src/` — pastikan folder `src/` ikut ter-push.
